@@ -1,25 +1,25 @@
 ---
 #https://www.notion.so/n8n/Frontmatter-432c2b8dff1f43d4b1c8d20075510fe4
 contentType: howto
-title: Chat with a Google Sheet using AI
-description: Use the n8n workflow tool to load data from Google Sheets into your AI workflow.
+title: AI를 사용하여 Google Sheet와 채팅하기
+description: n8n 워크플로우 도구를 사용하여 Google Sheets의 데이터를 AI 워크플로우로 로드합니다.
 ---
 
-# Chat with a Google Sheet using AI
+# AI를 사용하여 Google Sheet와 채팅하기
 
-Use n8n to bring your own data to AI. This workflow uses the [Chat Trigger](/integrations/builtin/core-nodes/n8n-nodes-langchain.chattrigger/index.md) to provide the chat interface, and the [Call n8n Workflow Tool](/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.toolworkflow.md) to call a second workflow that queries Google Sheets.
+n8n을 사용하여 AI에 자신의 데이터를 가져오십시오. 이 워크플로우는 [채팅 트리거](/integrations/builtin/core-nodes/n8n-nodes-langchain.chattrigger/index.md)를 사용하여 채팅 인터페이스를 제공하고, [n8n 워크플로우 호출 도구](/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.toolworkflow.md)를 사용하여 Google Sheets를 쿼리하는 두 번째 워크플로우를 호출합니다.
 
 [[ workflowDemo("file:///advanced-ai/examples/chat_with_google_sheets_docs_version.json") ]]
 
-## Key features
+## 주요 기능
 
-This workflow uses:
+이 워크플로우는 다음을 사용합니다:
 
-* [Chat Trigger](/integrations/builtin/core-nodes/n8n-nodes-langchain.chattrigger/index.md): start your workflow and respond to user chat interactions. The node provides a customizable chat interface.
-* [Agent](/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.agent/index.md): the key piece of the AI workflow. The Agent interacts with other components of the workflow and makes decisions about what tools to use.
-* [Call n8n Workflow Tool](/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.toolworkflow.md): plug in n8n workflows as custom tools. In AI, a tool is an interface the AI can use to interact with the world (in this case, the data provided by your workflow). The AI model uses the tool to access information beyond its built-in dataset.
+* [채팅 트리거](/integrations/builtin/core-nodes/n8n-nodes-langchain.chattrigger/index.md): 워크플로우를 시작하고 사용자 채팅 상호 작용에 응답합니다. 이 노드는 사용자 지정 가능한 채팅 인터페이스를 제공합니다.
+* [에이전트](/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.agent/index.md): AI 워크플로우의 핵심 부분입니다. 에이전트는 워크플로우의 다른 구성 요소와 상호 작용하고 사용할 도구를 결정합니다.
+* [n8n 워크플로우 호출 도구](/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.toolworkflow.md): n8n 워크플로우를 사용자 지정 도구로 연결합니다. AI에서 도구는 AI가 세상과 상호 작용하는 데 사용할 수 있는 인터페이스입니다(이 경우 워크플로우에서 제공하는 데이터). AI 모델은 이 도구를 사용하여 내장된 데이터 세트 외의 정보에 접근합니다.
 
 
-## Using the example
+## 예제 사용
 
 --8<-- "_snippets/examples-color-key.md"
