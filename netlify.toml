@@ -1,5 +1,5 @@
 [build]
-command = "mkdocs build"
+command = "pip install mkdocs-material && mkdocs build"
 publish = "site"
 [[headers]]
 for = "/*"

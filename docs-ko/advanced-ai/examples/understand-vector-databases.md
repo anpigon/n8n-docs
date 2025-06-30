@@ -1,53 +1,48 @@
 ---
 #https://www.notion.so/n8n/Frontmatter-432c2b8dff1f43d4b1c8d20075510fe4
-title: What are vector databases?
-description: Understand vector databases. Learn how n8n provides vector databases, along with the key components to work with them, including embeddings, retrievers, and document loaders.
+title: 벡터 데이터베이스란 무엇입니까?
+description: 벡터 데이터베이스를 이해하십시오. n8n이 임베딩, 검색기 및 문서 로더를 포함하여 벡터 데이터베이스와 함께 작동하는 주요 구성 요소를 제공하는 방법을 알아보십시오.
 contentType: explanation
 ---
 
-# What are vector databases?
+# 벡터 데이터베이스란 무엇입니까?
 
-Vector databases store information as numbers:
+벡터 데이터베이스는 정보를 숫자로 저장합니다:
 
-> A vector database is a type of database that stores data as high-dimensional vectors, which are mathematical representations of features or attributes. ([source](https://learn.microsoft.com/en-us/semantic-kernel/memories/vector-db){:target=_blank .external-link})
+> 벡터 데이터베이스는 고차원 벡터로 데이터를 저장하는 데이터베이스 유형으로, 특징 또는 속성의 수학적 표현입니다. ([출처](https://learn.microsoft.com/en-us/semantic-kernel/memories/vector-db){:target=_blank .external-link})
 
-This enables fast and accurate similarity searches. With a vector database, instead of using conventional database queries, you can search for relevant data based on semantic and contextual meaning.
+이를 통해 빠르고 정확한 유사성 검색이 가능합니다. 벡터 데이터베이스를 사용하면 기존 데이터베이스 쿼리 대신 의미론적 및 컨텍스트적 의미를 기반으로 관련 데이터를 검색할 수 있습니다.
 
-## A simplified example
+## 간략한 예시
 
-A vector database could store the sentence "n8n is a source-available automation tool that you can self-host", but instead of storing it as text, the vector database stores an array of dimensions (numbers between 0 and 1) that represent its features. This doesn't mean turning each letter in the sentence into a number. Instead, the vectors in the vector database describe the sentence. 
+벡터 데이터베이스는 "n8n은 자체 호스팅할 수 있는 소스 사용 가능한 자동화 도구입니다"라는 문장을 저장할 수 있지만, 텍스트로 저장하는 대신 벡터 데이터베이스는 특징을 나타내는 차원 배열(0에서 1 사이의 숫자)을 저장합니다. 이는 문장의 각 글자를 숫자로 바꾸는 것을 의미하지 않습니다. 대신 벡터 데이터베이스의 벡터는 문장을 설명합니다. 
 
-Suppose that in a vector store `0.1` represents `automation tool`, `0.2` represents `source available`, and `0.3` represents `can be self-hosted`. You could end up with the following vectors:
+벡터 저장소에서 `0.1`이 `자동화 도구`를 나타내고, `0.2`가 `소스 사용 가능`을 나타내고, `0.3`이 `자체 호스팅 가능`을 나타낸다고 가정해 봅시다. 다음 벡터를 얻을 수 있습니다:
 
-| Sentence | Vector (array of dimensions) |
+| 문장 | 벡터 (차원 배열) |
 | -------- | ------ |
-| n8n is a source-available automation tool that you can self-host | [0.1, 0.2, 0.3] |
-| Zapier is an automation tool | [0.1] |
-| Make is an automation tool | [0.1] |
-| Confluence is a wiki tool that you can self-host | [0.3] |
+| n8n은 자체 호스팅할 수 있는 소스 사용 가능한 자동화 도구입니다 | [0.1, 0.2, 0.3] |
+| Zapier는 자동화 도구입니다 | [0.1] |
+| Make는 자동화 도구입니다 | [0.1] |
+| Confluence는 자체 호스팅할 수 있는 위키 도구입니다 | [0.3] |
 
-/// note | This example is very simplified
-In practice, vectors are far more complex. A vector can range in size from tens to thousands of dimensions. The dimensions don't have a one-to-one relationship to a single feature, so you can't translate individual dimensions directly into single concepts. This example gives an approximate mental model, not a true technical understanding.
+/// note | 이 예시는 매우 단순화되었습니다.
+실제로 벡터는 훨씬 더 복잡합니다. 벡터는 수십에서 수천 차원에 이르는 크기를 가질 수 있습니다. 차원은 단일 특징과 일대일 관계를 갖지 않으므로 개별 차원을 단일 개념으로 직접 번역할 수 없습니다. 이 예시는 실제 기술적 이해가 아닌 대략적인 정신 모델을 제공합니다.
 ///
 
 
-## Demonstrating the power of similarity search
+## 유사성 검색의 힘 시연
 
-Qdrant provides [vector search demos](https://qdrant.tech/demo/){:target=_blank .external-link} to help users understand the power of vector databases. The [food discovery demo](https://food-discovery.qdrant.tech/){:target=_blank .external-link} shows how a vector store can help match pictures based on visual similarities.
+Qdrant는 벡터 데이터베이스의 힘을 이해하는 데 도움이 되는 [벡터 검색 데모](https://qdrant.tech/demo/){:target=_blank .external-link}를 제공합니다. [음식 검색 데모](https://food-discovery.qdrant.tech/){:target=_blank .external-link}는 벡터 저장소가 시각적 유사성을 기반으로 사진을 일치시키는 데 어떻게 도움이 되는지 보여줍니다.
 
-> This demo uses data from Delivery Service. Users may like or dislike the photo of a dish, and the app will recommend more similar meals based on how they look. It's also possible to choose to view results from the restaurants within the delivery radius. ([source](https://qdrant.tech/demo/){:target=_blank .external-link})
+> 이 데모는 배달 서비스의 데이터를 사용합니다. 사용자는 요리 사진을 좋아하거나 싫어할 수 있으며, 앱은 시각적으로 유사한 음식을 추천합니다. 배달 반경 내의 레스토랑에서 결과를 볼 수도 있습니다. ([출처](https://qdrant.tech/demo/){:target=_blank .external-link})
 
-For full technical details, refer to the [Qdrant demo-food-discovery GitHub repository](https://github.com/qdrant/demo-food-discovery){:target=_blank .external-link}.
+전체 기술 세부 정보는 [Qdrant demo-food-discovery GitHub 저장소](https://github.com/qdrant/demo-food-discovery){:target=_blank .external-link}를 참조하십시오.
 
-## Embeddings, retrievers, text splitters, and document loaders
+## 임베딩, 검색기, 텍스트 분할기 및 문서 로더
 
-Vector databases require other tools to function:
+벡터 데이터베이스는 작동하려면 다른 도구가 필요합니다:
 
-- Document loaders and text splitters: document loaders pull in documents and data, and prepare them for [embedding](/glossary.md#ai-embedding). Document loaders can use text splitters to break documents into chunks.
-- Embeddings: these are the tools that turn the data (text, images, and so on) into vectors, and back into raw data. Note that n8n only supports text embeddings.
-- Retrievers: retrievers fetch documents from vector databases. You need to pair them with an embedding to translate the vectors back into data.
-
-
-
-
-
+- 문서 로더 및 텍스트 분할기: 문서 로더는 문서 및 데이터를 가져와 [임베딩](/glossary.md#ai-embedding)을 위해 준비합니다. 문서 로더는 텍스트 분할기를 사용하여 문서를 청크로 분할할 수 있습니다.
+- 임베딩: 데이터(텍스트, 이미지 등)를 벡터로 변환하고 다시 원시 데이터로 변환하는 도구입니다. n8n은 텍스트 임베딩만 지원합니다.
+- 검색기: 검색기는 벡터 데이터베이스에서 문서를 가져옵니다. 벡터를 다시 데이터로 변환하려면 임베딩과 페어링해야 합니다.
