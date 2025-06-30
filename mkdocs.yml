@@ -128,8 +128,8 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator:
-        !!python/name:material.extensions.emoji.to_svg
-  # https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown-extensions/#highlight
+        !!python/name:material.extensions.emoji.to_svg # https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown-extensions/#highlight
+
   - pymdownx.highlight:
       linenums: true
   # https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown-extensions/#inlinehilite
@@ -147,8 +147,8 @@ markdown_extensions:
         - name: mermaid
           class: mermaid
           format:
-            !!python/name:pymdownx.superfences.fence_code_format
-      # https://facelessuser.github.io/pymdown-extensions/extensions/superfences/#preserve-tabs
+            !!python/name:pymdownx.superfences.fence_code_format # https://facelessuser.github.io/pymdown-extensions/extensions/superfences/#preserve-tabs
+
       preserve_tabs: true
   - pymdownx.tasklist:
       custom_checkbox: true
@@ -167,6 +167,20 @@ plugins:
   # - info
   # Search is built in, but must be enabled when you add other plugins
   - search
+  - i18n:
+      docs_structure: suffix
+      fallback_to_default: true
+      reconfigure_material: true
+      reconfigure_search: true
+      languages:
+        - locale: en
+          default: true
+          name: English
+          build: true
+        - locale: ko
+          name: 한국어
+          build: true
+          site_name: "n8n 문서"
   - exclude:
       glob:
       # - integrations/builtin/*
