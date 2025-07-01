@@ -1,3 +1,4 @@
+---
 #https://www.notion.so/n8n/Frontmatter-432c2b8dff1f43d4b1c8d20075510fe4
 description: 코드 노드를 사용하여 워크플로우 실행에 사용자 지정 데이터를 추가합니다. 그런 다음 이 데이터로 실행을 필터링할 수 있습니다.
 contentType: howto

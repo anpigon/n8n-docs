@@ -1,3 +1,4 @@
+---
 #https://www.notion.so/n8n/Frontmatter-432c2b8dff1f43d4b1c8d20075510fe4
 description: If 및 Switch를 사용하여 워크플로우를 여러 경로로 분할
 contentType: howto

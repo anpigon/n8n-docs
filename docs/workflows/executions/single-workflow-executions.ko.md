@@ -1,3 +1,4 @@
+---
 #https://www.notion.so/n8n/Frontmatter-432c2b8dff1f43d4b1c8d20075510fe4
 description: 현재 캔버스에서 열려 있는 워크플로우에 대한 모든 실행을 보고 필터링합니다.
 contentType: howto

@@ -1,3 +1,4 @@
+---
 #https://www.notion.so/n8n/Frontmatter-432c2b8dff1f43d4b1c8d20075510fe4
 description: 노드는 데이터를 검색하는 진입점, 데이터를 처리하는 함수 또는 데이터를 보내는 출구입니다.
 contentType: howto

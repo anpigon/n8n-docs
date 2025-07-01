@@ -1,3 +1,4 @@
+---
 #https://www.notion.so/n8n/Frontmatter-432c2b8dff1f43d4b1c8d20075510fe4
 title: 커뮤니티 에디션 기능
 description: 커뮤니티 에디션과 다른 유료 플랜 간의 사용 가능한 기능 차이.

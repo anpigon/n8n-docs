@@ -1,3 +1,4 @@
+---
 #https://www.notion.so/n8n/Frontmatter-432c2b8dff1f43d4b1c8d20075510fe4
 description: n8n에서 첫 번째 워크플로우를 만들고 몇 가지 주요 개념을 배웁니다.
 contentType: tutorial

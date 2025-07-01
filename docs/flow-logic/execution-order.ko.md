@@ -1,3 +1,4 @@
+---
 #https://www.notion.so/n8n/Frontmatter-432c2b8dff1f43d4b1c8d20075510fe4
 title: 다중 분기 워크플로우의 실행 순서
 description: n8n이 다중 분기 워크플로우에서 노드 실행 순서를 결정하는 방법입니다.

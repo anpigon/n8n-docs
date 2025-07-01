@@ -1,3 +1,4 @@
+---
 #https://www.notion.so/n8n/Frontmatter-432c2b8dff1f43d4b1c8d20075510fe4
 title: 수동, 부분 및 프로덕션 실행
 description: 수동, 부분 및 자동 워크플로우 실행이 어떻게 다른지 설명합니다.

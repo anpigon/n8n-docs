@@ -1,3 +1,4 @@
+---
 #https://www.notion.so/n8n/Frontmatter-432c2b8dff1f43d4b1c8d20075510fe4
 description: 스티커 메모를 사용하여 워크플로우에 주석을 답니다.
 contentType: howto
