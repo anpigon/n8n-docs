@@ -1,3 +1,4 @@
+---
 #https://www.notion.so/n8n/Frontmatter-432c2b8dff1f43d4b1c8d20075510fe4
 title: 노드에 대한 액세스 차단
 description: "n8n 사용자가 특정 노드에 액세스하는 것을 방지합니다."

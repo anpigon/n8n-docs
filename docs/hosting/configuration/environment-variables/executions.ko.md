@@ -1,3 +1,4 @@
+---
 #https://www.notion.so/n8n/Frontmatter-432c2b8dff1f43d4b1c8d20075510fe4
 title: 실행 환경 변수
 description: 워크플로우 실행과 관련된 설정을 구성하는 환경 변수입니다.

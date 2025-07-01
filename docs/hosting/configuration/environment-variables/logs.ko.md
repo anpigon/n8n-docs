@@ -1,3 +1,4 @@
+---
 #https://www.notion.so/n8n/Frontmatter-432c2b8dff1f43d4b1c8d20075510fe4
 title: 로그 환경 변수
 description: 로깅 및 진단 데이터를 구성하는 환경 변수입니다.

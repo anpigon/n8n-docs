@@ -1,3 +1,4 @@
+---
 #https://www.notion.so/n8n/Frontmatter-432c2b8dff1f43d4b1c8d20075510fe4
 title: n8n 격리
 description: n8n 인스턴스가 n8n 서버와 연결되지 않도록 방지합니다.

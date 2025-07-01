@@ -1,3 +1,4 @@
+---
 #https://www.notion.so/n8n/Frontmatter-432c2b8dff1f43d4b1c8d20075510fe4
 title: 리버스 프록시로 웹훅 URL 구성
 description: 리버스 프록시 설정과 호환되도록 n8n 웹훅 URL을 사용자 지정합니다.

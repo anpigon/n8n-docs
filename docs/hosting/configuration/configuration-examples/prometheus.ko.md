@@ -1,3 +1,4 @@
+---
 #https://www.notion.so/n8n/Frontmatter-432c2b8dff1f43d4b1c8d20075510fe4
 title: 프로메테우스 메트릭 활성화
 description: 프로메테우스 메트릭 엔드포인트를 활성화합니다.

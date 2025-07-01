@@ -1,3 +1,4 @@
+---
 #https://www.notion.so/n8n/Frontmatter-432c2b8dff1f43d4b1c8d20075510fe4
 title: 워크플로우 시간 초과 설정 구성
 description: 워크플로우가 실행될 수 있는 시간을 결정하기 위해 실행 시간 초과를 설정합니다.

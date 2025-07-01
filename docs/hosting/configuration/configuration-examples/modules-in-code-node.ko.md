@@ -1,3 +1,4 @@
+---
 #https://www.notion.so/n8n/Frontmatter-432c2b8dff1f43d4b1c8d20075510fe4
 title: 코드 노드에서 모듈 활성화
 description: 코드 노드 내에서 내장 및 외부 모듈을 모두 사용할 수 있도록 허용합니다.

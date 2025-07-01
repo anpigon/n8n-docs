@@ -1,3 +1,4 @@
+---
 #https://www.notion.so/n8n/Frontmatter-432c2b8dff1f43d4b1c8d20075510fe4
 title: 데이터 수집 옵트아웃
 description: "n8n 인스턴스에서 데이터 원격 측정 수집을 옵트아웃합니다."

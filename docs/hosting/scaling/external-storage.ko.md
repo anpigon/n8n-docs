@@ -1,3 +1,4 @@
+---
 #https://www.notion.so/n8n/Frontmatter-432c2b8dff1f43d4b1c8d20075510fe4
 description: n8n 인스턴스의 바이너리 데이터 외부 저장소입니다.
 contentType: howto

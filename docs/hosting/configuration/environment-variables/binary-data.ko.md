@@ -1,3 +1,4 @@
+---
 #https://www.notion.so/n8n/Frontmatter-432c2b8dff1f43d4b1c8d20075510fe4
 title: 바이너리 데이터 환경 변수
 description: 자체 호스팅 n8n 인스턴스에 대한 환경 변수로 바이너리 데이터 저장 모드 및 경로를 사용자 지정합니다.

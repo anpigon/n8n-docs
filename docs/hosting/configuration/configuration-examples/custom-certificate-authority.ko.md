@@ -1,3 +1,4 @@
+---
 #https://www.notion.so/n8n/Frontmatter-432c2b8dff1f43d4b1c8d20075510fe4
 title: n8n이 자체 인증 기관을 사용하도록 구성
 description: 서비스에 연결할 때 자체 서명된 인증서와 함께 작동하도록 n8n 컨테이너를 사용자 정의합니다.

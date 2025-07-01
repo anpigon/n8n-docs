@@ -1,3 +1,4 @@
+---
 #https://www.notion.so/n8n/Frontmatter-432c2b8dff1f43d4b1c8d20075510fe4
 title: 사용자 폴더 경로 지정
 description: 사용자별 데이터를 저장하는 폴더의 위치를 지정합니다.

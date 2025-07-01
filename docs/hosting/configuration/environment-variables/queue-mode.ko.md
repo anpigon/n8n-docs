@@ -1,3 +1,4 @@
+---
 #https://www.notion.so/n8n/Frontmatter-432c2b8dff1f43d4b1c8d20075510fe4
 title: 큐 모드 환경 변수
 description: 자체 호스팅 n8n 인스턴스에서 큐 모드를 구성하는 환경 변수입니다.

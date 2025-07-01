@@ -1,3 +1,4 @@
+---
 #https://www.notion.so/n8n/Frontmatter-432c2b8dff1f43d4b1c8d20075510fe4
 title: 외부 비밀 환경 변수
 description: 자체 호스팅 n8n 인스턴스에서 외부 비밀 업데이트 확인 간격을 구성합니다.

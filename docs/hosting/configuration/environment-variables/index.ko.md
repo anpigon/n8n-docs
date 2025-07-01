@@ -1,3 +1,4 @@
+---
 #https://www.notion.so/n8n/Frontmatter-432c2b8dff1f43d4b1c8d20075510fe4
 title: 환경 변수 개요
 description: 자체 호스팅 n8n에 대한 구성 환경 변수 개요입니다.

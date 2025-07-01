@@ -1,3 +1,4 @@
+---
 #https://www.notion.so/n8n/Frontmatter-432c2b8dff1f43d4b1c8d20075510fe4
 description: "n8n의 자동화의 주요 구성 요소에 대해 알아봅니다."
 contentType: overview

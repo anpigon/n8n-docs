@@ -1,3 +1,4 @@
+---
 #https://www.notion.so/n8n/Frontmatter-432c2b8dff1f43d4b1c8d20075510fe4
 description: 연결은 워크플로우를 통해 데이터를 라우팅하기 위해 노드 간의 링크를 설정합니다.
 contentType: howto

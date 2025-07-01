@@ -1,3 +1,4 @@
+---
 #https://www.notion.so/n8n/Frontmatter-432c2b8dff1f43d4b1c8d20075510fe4
 title: 작업 실행기 강화
 description: "자체 호스팅 n8n 인스턴스에 대한 더 나은 격리를 위해 작업 실행기를 강화합니다."

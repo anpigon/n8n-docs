@@ -1,3 +1,4 @@
+---
 #https://www.notion.so/n8n/Frontmatter-432c2b8dff1f43d4b1c8d20075510fe4
 title: n8n의 프런트엔드 액세스를 위한 기본 URL 구성
 description: n8n의 백엔드 REST API에 대한 프런트엔드의 액세스 경로를 정의하기 위해 기본 URL 환경 변수를 구성합니다.

@@ -1,3 +1,4 @@
+---
 #https://www.notion.so/n8n/Frontmatter-432c2b8dff1f43d4b1c8d20075510fe4
 title: 자체 호스팅 AI 스타터 키트
 description: n8n의 선별된 자체 호스팅 AI 스타터 키트를 사용하여 AI 워크플로우를 빠르게 구축하기 시작할 수 있는 AI 요소 목록을 얻으십시오.

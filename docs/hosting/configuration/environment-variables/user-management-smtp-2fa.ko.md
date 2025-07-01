@@ -1,3 +1,4 @@
+---
 #https://www.notion.so/n8n/Frontmatter-432c2b8dff1f43d4b1c8d20075510fe4
 title: 사용자 관리 SMTP 및 2단계 인증 환경 변수
 description: 사용자 관리 및 이메일을 설정하는 환경 변수입니다.

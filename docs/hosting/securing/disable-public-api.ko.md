@@ -1,3 +1,4 @@
+---
 #https://www.notion.so/n8n/Frontmatter-432c2b8dff1f43d4b1c8d20075510fe4
 title: 공개 REST API 비활성화
 description: "다른 사람이 사용하지 못하도록 n8n 공개 REST API를 비활성화합니다."

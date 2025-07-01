@@ -1,3 +1,4 @@
+---
 #https://www.notion.so/n8n/Frontmatter-432c2b8dff1f43d4b1c8d20075510fe4
 title: 워크플로우 환경 변수
 description: 기본 이름 지정, 온보딩 흐름 기본 설정, 태그 관리 및 호출자 정책 설정을 포함하여 n8n에서 워크플로우를 구성하는 환경 변수입니다.

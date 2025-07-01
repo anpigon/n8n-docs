@@ -1,3 +1,4 @@
+---
 #https://www.notion.so/n8n/Frontmatter-432c2b8dff1f43d4b1c8d20075510fe4
 title: n8n에서 바이너리 데이터 확장
 description: n8n의 성능을 저하시키지 않고 대용량 파일을 처리하는 방법입니다.

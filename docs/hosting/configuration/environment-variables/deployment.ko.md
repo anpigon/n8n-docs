@@ -1,3 +1,4 @@
+---
 #https://www.notion.so/n8n/Frontmatter-432c2b8dff1f43d4b1c8d20075510fe4
 title: 배포 환경 변수
 description: 자체 호스팅 n8n 인스턴스에 대한 환경 변수로 배포 옵션 및 애플리케이션 접근성을 구성합니다.

@@ -1,3 +1,4 @@
+---
 #https://www.notion.so/n8n/Frontmatter-432c2b8dff1f43d4b1c8d20075510fe4
 title: 엔드포인트 환경 변수
 description: 자체 호스팅 n8n 인스턴스에 대한 환경 변수로 애플리케이션의 API 및 웹훅 엔드포인트를 사용자 지정합니다.

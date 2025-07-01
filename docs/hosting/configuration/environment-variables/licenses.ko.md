@@ -1,3 +1,4 @@
+---
 #https://www.notion.so/n8n/Frontmatter-432c2b8dff1f43d4b1c8d20075510fe4
 title: 라이선스 환경 변수
 description: 사용 페이지 숨기기, 라이선스 활성화 및 자동 갱신 설정 관리, 라이선스 검색을 위한 서버 URL 지정을 포함하여 n8n의 라이선스 설정을 구성하는 환경 변수입니다.
